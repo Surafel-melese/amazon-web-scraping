@@ -106,6 +106,6 @@ amazon-web-scraping/
 
 The output data will be saved in the `data/output/` directory.
 
-## Logging and Debugging
-- Activities are logged in the `logs/` directory.
-- Important messages and errors are recorded for easier debugging.
+Logging and Debugging
+Activities are logged in the logs/ directory.
+Important messages and errors are recorded for easier debugging.
