@@ -85,8 +85,8 @@ function createExcelFile(validProducts) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const filePath = path.join(outputDir, 'ProductData.xlsx');
-    XLSX.utils.book_append_sheet(workbook, worksheet, 'Product Data'); 
+    const filePath = path.join(outputDir, 'AmazonData.xlsx');
+    XLSX.utils.book_append_sheet(workbook, worksheet, 'Amazon Data'); 
     XLSX.writeFile(workbook, filePath); 
 
     console.log(`Excel file created at: ${filePath}`);

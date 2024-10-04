@@ -1,50 +1,41 @@
 const { fetchProductData } = require('../api/keepa');
-const { createExcelFile } = require('../utils/excelUtils');
-const { ASINS } = require('../constants');
+const { createExcelFile, readExcel } = require('../utils/excelUtils');
+const path = require('path');
 
 async function fetchAmazonData(batchSize = 10) {
     let validProducts = [];
 
-    const batchArray = (array, size) => {
-        const batches = [];
-        for (let i = 0; i < array.length; i += size) {
-            batches.push(array.slice(i, i + size)); 
-        }
-        return batches;
+    const createBatches = (array, size) => {
+        return Array.from({ length: Math.ceil(array.length / size) }, (v, i) =>
+            array.slice(i * size, i * size + size)
+        );
     };
 
-    const asinBatches = batchArray(ASINS, batchSize);
+    const ASINS = readExcel(path.join(__dirname, '../data/input/asins.xlsx'));
+    const asinBatches = createBatches(ASINS, batchSize);
 
     for (const batch of asinBatches) {
-        console.log(`Processing batch: ${batch}`);
-        try {
-            const productPromises = batch.map(async (asin) => {
-                try {
-                    const product = await fetchProductData(asin);
-                    return product;
-                } catch (error) {
-                    console.error(`Error fetching data for ASIN ${asin}: ${error.message}`);
-                    return null; 
-                }
-            });
+        const productPromises = batch.map(asinObj => {
+        const asin = asinObj.asin;
+        return fetchProductData(asin).catch((error) => {
+            console.error(`Error fetching data for ASIN ${asin}: ${error.message}`);
+            return null;
+        });
+    });
 
-            const products = await Promise.all(productPromises);
+        const products = await Promise.all(productPromises);
+        console.log(products);
 
-            const batchValidProducts = products.filter(product => product !== null);
-            validProducts = validProducts.concat(batchValidProducts);
+        validProducts.push(...products.filter(product => product !== null));
 
-            await new Promise(resolve => setTimeout(resolve, 5000)); // 5-second delay
-        } catch (error) {
-            logger.error(`Error processing batch: ${error.message}`); 
-        }
+        await new Promise(resolve => setTimeout(resolve, 5000));
     }
 
-    if (validProducts.length === 0) {
-        logger.warn("No valid products found. Exiting without creating an Excel file.");
-        return;
+    if (validProducts.length > 0) {
+        createExcelFile(validProducts);
+    } else {
+        console.warn("No valid products found. Exiting without creating an Excel file.");
     }
-
-    createExcelFile(validProducts);
 }
 
 module.exports = fetchAmazonData;

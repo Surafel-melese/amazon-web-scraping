@@ -1,7 +1,6 @@
 require('dotenv').config();
 
-const KEEP_API_KEY = process.env.KEEP_API_KEY || 'your_default_keepa_api_key';
-
+const KEEP_API_KEY = process.env.KEEP_API_KEY;
 
 const config = {
     waylandGamesUrl: 'https://www.waylandgames.co.uk/',
