@@ -4440,3 +4440,58 @@
 {"level":"info","message":"Fetching data for ASIN: B095J8FYZP, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B095J8FYZP","timestamp":"2024-10-04T22:30:57.576Z"}
 {"level":"info","message":"Fetching data for ASIN: B08MVMPLJQ, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B08MVMPLJQ","timestamp":"2024-10-04T22:30:57.596Z"}
 {"level":"info","message":"Fetching data for ASIN: B09SZMQV11, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B09SZMQV11","timestamp":"2024-10-04T22:30:57.609Z"}
+{"level":"info","message":"Logger initialized successfully","timestamp":"2024-10-05T09:21:21.378Z"}
+{"level":"info","message":"Logger initialized successfully","timestamp":"2024-10-05T09:21:21.409Z"}
+{"level":"info","message":"Fetching data for ASIN: B0716LYWXG, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B0716LYWXG","timestamp":"2024-10-05T09:21:33.589Z"}
+{"level":"info","message":"Fetching data for ASIN: B073M2SKKQ, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B073M2SKKQ","timestamp":"2024-10-05T09:21:33.918Z"}
+{"level":"info","message":"Fetching data for ASIN: B0746G7SBF, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B0746G7SBF","timestamp":"2024-10-05T09:21:33.929Z"}
+{"level":"info","message":"Fetching data for ASIN: B074MB4X97, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B074MB4X97","timestamp":"2024-10-05T09:21:33.939Z"}
+{"level":"info","message":"Fetching data for ASIN: B074MCDX59, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B074MCDX59","timestamp":"2024-10-05T09:21:33.962Z"}
+{"level":"info","message":"Fetching data for ASIN: B074MCMM89, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B074MCMM89","timestamp":"2024-10-05T09:21:33.975Z"}
+{"level":"info","message":"Fetching data for ASIN: B07953J7MC, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B07953J7MC","timestamp":"2024-10-05T09:21:33.985Z"}
+{"level":"info","message":"Fetching data for ASIN: B07K54FH2Y, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B07K54FH2Y","timestamp":"2024-10-05T09:21:33.996Z"}
+{"level":"info","message":"Fetching data for ASIN: B07MMZ5141, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B07MMZ5141","timestamp":"2024-10-05T09:21:34.011Z"}
+{"level":"info","message":"Fetching data for ASIN: B07Q23GW7W, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B07Q23GW7W","timestamp":"2024-10-05T09:21:34.033Z"}
+{"level":"error","message":"Error fetching data for ASIN B0746G7SBF: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.559Z"}
+{"level":"error","message":"Error fetching data for ASIN B0716LYWXG: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.564Z"}
+{"level":"error","message":"Error fetching data for ASIN B073M2SKKQ: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.568Z"}
+{"level":"error","message":"Error fetching data for ASIN B074MB4X97: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.571Z"}
+{"level":"error","message":"Error fetching data for ASIN B07MMZ5141: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.573Z"}
+{"level":"error","message":"Error fetching data for ASIN B074MCMM89: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.582Z"}
+{"level":"error","message":"Error fetching data for ASIN B07953J7MC: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.588Z"}
+{"level":"error","message":"Error fetching data for ASIN B07K54FH2Y: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.635Z"}
+{"level":"error","message":"Error fetching data for ASIN B074MCDX59: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.659Z"}
+{"level":"error","message":"Error fetching data for ASIN B07Q23GW7W: Request failed with status code 400","timestamp":"2024-10-05T09:21:34.663Z"}
+{"level":"info","message":"Fetching data for ASIN: B07Z8HBC19, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B07Z8HBC19","timestamp":"2024-10-05T09:21:51.713Z"}
+{"level":"info","message":"Fetching data for ASIN: B083ZJ2964, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B083ZJ2964","timestamp":"2024-10-05T09:21:51.732Z"}
+{"level":"info","message":"Fetching data for ASIN: B084KQTQL8, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B084KQTQL8","timestamp":"2024-10-05T09:21:51.749Z"}
+{"level":"info","message":"Fetching data for ASIN: B0851NR414, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B0851NR414","timestamp":"2024-10-05T09:21:51.764Z"}
+{"level":"info","message":"Fetching data for ASIN: B08571NLQV, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B08571NLQV","timestamp":"2024-10-05T09:21:51.785Z"}
+{"level":"info","message":"Fetching data for ASIN: B08BNC4GL6, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B08BNC4GL6","timestamp":"2024-10-05T09:21:51.809Z"}
+{"level":"info","message":"Fetching data for ASIN: B08BNGRCJS, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B08BNGRCJS","timestamp":"2024-10-05T09:21:51.829Z"}
+{"level":"info","message":"Fetching data for ASIN: B08M6DJ925, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B08M6DJ925","timestamp":"2024-10-05T09:21:51.844Z"}
+{"level":"info","message":"Fetching data for ASIN: B08N5F5X91, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B08N5F5X91","timestamp":"2024-10-05T09:21:51.861Z"}
+{"level":"info","message":"Fetching data for ASIN: B08N5FQN62, URL: https://api.keepa.com/product?key=[object Object]&domain=1&asin=B08N5FQN62","timestamp":"2024-10-05T09:21:51.877Z"}
+{"level":"error","message":"Error fetching data for ASIN B083ZJ2964: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.274Z"}
+{"level":"error","message":"Error fetching data for ASIN B07Z8HBC19: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.277Z"}
+{"level":"error","message":"Error fetching data for ASIN B08571NLQV: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.363Z"}
+{"level":"error","message":"Error fetching data for ASIN B08BNGRCJS: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.366Z"}
+{"level":"error","message":"Error fetching data for ASIN B08M6DJ925: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.371Z"}
+{"level":"error","message":"Error fetching data for ASIN B08N5F5X91: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.376Z"}
+{"level":"error","message":"Error fetching data for ASIN B08BNC4GL6: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.379Z"}
+{"level":"error","message":"Error fetching data for ASIN B0851NR414: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.383Z"}
+{"level":"error","message":"Error fetching data for ASIN B08N5FQN62: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.386Z"}
+{"level":"error","message":"Error fetching data for ASIN B084KQTQL8: Request failed with status code 400","timestamp":"2024-10-05T09:21:52.393Z"}
+{"level":"info","message":"Logger initialized successfully","timestamp":"2024-10-05T09:23:33.567Z"}
+{"level":"info","message":"Logger initialized successfully","timestamp":"2024-10-05T09:23:33.587Z"}
+{"level":"info","message":"Fetching data for ASIN: B0716LYWXG, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B0716LYWXG","timestamp":"2024-10-05T09:23:45.784Z"}
+{"level":"info","message":"Fetching data for ASIN: B073M2SKKQ, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B073M2SKKQ","timestamp":"2024-10-05T09:23:46.072Z"}
+{"level":"info","message":"Fetching data for ASIN: B0746G7SBF, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B0746G7SBF","timestamp":"2024-10-05T09:23:46.082Z"}
+{"level":"info","message":"Fetching data for ASIN: B074MB4X97, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B074MB4X97","timestamp":"2024-10-05T09:23:46.092Z"}
+{"level":"info","message":"Fetching data for ASIN: B074MCDX59, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B074MCDX59","timestamp":"2024-10-05T09:23:46.101Z"}
+{"level":"info","message":"Fetching data for ASIN: B074MCMM89, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B074MCMM89","timestamp":"2024-10-05T09:23:46.111Z"}
+{"level":"info","message":"Fetching data for ASIN: B07953J7MC, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B07953J7MC","timestamp":"2024-10-05T09:23:46.120Z"}
+{"level":"info","message":"Fetching data for ASIN: B07K54FH2Y, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B07K54FH2Y","timestamp":"2024-10-05T09:23:46.137Z"}
+{"level":"info","message":"Fetching data for ASIN: B07MMZ5141, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B07MMZ5141","timestamp":"2024-10-05T09:23:46.151Z"}
+{"level":"info","message":"Fetching data for ASIN: B07Q23GW7W, URL: https://api.keepa.com/product?key=ftl9rmbprserlkqios5sv3md5bfrf5jpu2uahr7k6r854i78o56h939i2pcpv8r0&domain=1&asin=B07Q23GW7W","timestamp":"2024-10-05T09:23:46.167Z"}
+{"level":"error","message":"Error scraping Element Games: Navigation timeout of 30000 ms exceeded","timestamp":"2024-10-05T10:47:19.477Z"}

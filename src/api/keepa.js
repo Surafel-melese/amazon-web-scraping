@@ -14,7 +14,7 @@ async function fetchProductData(asin) {
     const domainId = 1;  // 1 for Amazon.com
 
     try {
-        const requestUrl = `${config.config.keepaProductUrl}?key=${config.config}&domain=${domainId}&asin=${asin}`;
+        const requestUrl = `${config.config.keepaProductUrl}?key=${config.config.KEEP_API_KEY}&domain=${domainId}&asin=${asin}`;
         logger.info(`Fetching data for ASIN: ${asin}, URL: ${requestUrl}`);
 
         const response = await axios.get(requestUrl);
