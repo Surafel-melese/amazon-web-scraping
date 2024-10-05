@@ -11,12 +11,8 @@ logger.info('Logger initialized successfully'); // Test log message
 async function reverseSearch() {
     try {
         const inputFilePath = path.join(__dirname, '../data/input/products.xlsx');
-        const outputDir = path.join(__dirname, '../data/output');
-        const outputFilePath = path.join(outputDir, 'reverseSearchData.xlsx');
+        const outputFilePath = 'reverseSearchData.xlsx';
 
-        if (!fs.existsSync(outputDir)) {
-            fs.mkdirSync(outputDir, { recursive: true });
-        }
         const products = readExcel(inputFilePath);
         const results = [];
 

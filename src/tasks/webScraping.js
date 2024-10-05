@@ -8,7 +8,7 @@ async function webScraping() {
     const elementData = await scrapeElementGames();
     const argosData = await scrapeArgos();
 
-    const allData = [...elementData];
+    const allData = [...waylandData, ...elementData, ...argosData];
 
     writeExcel(allData, 'scraped_products.xlsx');
 }
