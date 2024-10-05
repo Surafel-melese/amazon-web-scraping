@@ -7,12 +7,7 @@ const { writeExcel } = require('../utils/excelUtils');
 const config = require('../config/config');
 
 async function scrapeWaylandGames() {
-    const outputDir = path.join(__dirname, '../data/output');
     const outputFile = 'waylandGamesData.xlsx';
-
-    if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, { recursive: true });
-    }
 
     let browser;
     try {

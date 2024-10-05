@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const { logger } = require('../utils/logger');
 const Bottleneck = require('bottleneck');
+const config = require('../config/config')
 
 logger.info('Logger initialized successfully');
 
@@ -28,7 +29,7 @@ const limitedSearch = limiter.wrap(async (url) => {
 
 const searchAmazon = async (productTitle) => {
     try {
-        const searchUrl = `https://www.amazon.com/s?k=${encodeURIComponent(productTitle)}`;
+        const searchUrl = `${config.config.amazonSearchUrl}${encodeURIComponent(productTitle)}`;
         logger.info(`Searching URL: ${searchUrl}`);
 
         const content = await limitedSearch(searchUrl);

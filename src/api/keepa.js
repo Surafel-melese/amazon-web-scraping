@@ -1,12 +1,8 @@
 // Import necessary modules
 const axios = require('axios');
-const dotenv = require('dotenv');
+const config = require('../config/config')
 const { logger } = require('../utils/logger');
 
-dotenv.config();
-
-const KEEP_API_KEY = process.env.KEEP_API_KEY;
-const BASE_URL = 'https://api.keepa.com/product';
 
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms)); 
@@ -18,7 +14,7 @@ async function fetchProductData(asin) {
     const domainId = 1;  // 1 for Amazon.com
 
     try {
-        const requestUrl = `${BASE_URL}?key=${KEEP_API_KEY}&domain=${domainId}&asin=${asin}`;
+        const requestUrl = `${config.config.keepaProductUrl}?key=${config.config}&domain=${domainId}&asin=${asin}`;
         logger.info(`Fetching data for ASIN: ${asin}, URL: ${requestUrl}`);
 
         const response = await axios.get(requestUrl);
